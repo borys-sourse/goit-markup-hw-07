@@ -1,0 +1,65 @@
+.portfolio { 
+    margin-top: 94px;
+  }
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+    flex-basis: calc(100% / 3 - 30px);
+    padding-bottom: 94px;
+  }
+  
+  .projects-list-item {
+    margin-left: 30px;
+    margin-top: 30px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .projects-list-item:hover,
+  .projects-list-item:focus {
+    cursor: pointer;
+    background: #ffffff;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+  .projects-list-link-wrapper:hover .overlay,
+  .projects-list-link-wrapper:focus .overlay{
+    transform: translateY(0%);
+  }
+  
+  .projects-list-contant-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    color: #FFFFFF;
+    background: rgba(33, 150, 243, 0.9);
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 63px 24px;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+  }
+  
+  .project-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+  }
+  
+  .project-title {
+    margin-bottom: 4px;
+    color: #212121;
+  }
+  
+  .project-title-description {
+    color: #757575;
+  }
