@@ -4,14 +4,14 @@
     margin-left: -30px;
     margin-top: -30px;
   }
-  
-  .features-list-item {
+
+  .features-list__item {
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc(100% / 4 - 30px);
   }
   
-  .feature-container-list {
+  .feature-container__list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@
     border-radius: 4px;
   }
   
-  .features-list-icon {
+  .features-list__icon {
     width: 70px;
     height: 70px;
   }
@@ -39,7 +39,7 @@
     margin-bottom: 10px;
   }
   
-  .titles-list-description {
+  .titles-list__description {
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;

@@ -2,24 +2,24 @@
     display: flex;
     margin-left: -30px;
     margin-top: -30px;
+
+ &__item {
+      position: relative;
+      margin-left: 30px;
+      margin-top: 30px;
+      flex-basis: calc(100% / 3 - 30px);
+    }
+
+  &__wrapper {
+      bottom: 0;
+      position: absolute ;
+      width: 370px;
+      height: 70px;
+      background: rgba(47, 48, 58, 0.8);
+    }
   }
   
-  .about-list-item {
-    position: relative;
-    margin-left: 30px;
-    margin-top: 30px;
-    flex-basis: calc(100% / 3 - 30px);
-  }
-  
-  .about-list-wrapper {
-    bottom: 0;
-    position: absolute ;
-    width: 370px;
-    height: 70px;
-    background: rgba(47, 48, 58, 0.8);
-  }
-  
-  .about-text-background {
+  .about-text_background {
     margin: 27px auto ;
     width: 198px;
     height: 16px;
